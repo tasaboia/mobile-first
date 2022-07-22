@@ -1,0 +1,118 @@
+.about {
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+
+ }
+
+.about__painel {
+  width: 100%;
+  height: 15%;
+}
+ .about__background--image {
+  width: 80%;
+  height: 60%;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 10%;
+ }
+
+ .about__image {
+  position: absolute;
+  transform: translate(-50%, 20%);
+}
+
+ .about__title {
+  margin: 5px;
+  display: block;
+  font-size: 2rem;
+ }
+
+ .about__subtitle {
+  text-align: start;
+ }
+.about__skills--table {
+  margin: 10%;
+}
+ 
+.about__skills--list--container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  max-height: 10%;
+  overflow-x: scroll;
+}
+
+.about__skills--list {
+  max-width: 100%;
+  max-height: 100%;
+}
+.abouts__list--item {
+  max-width: 60px;
+  max-height: 60px;
+}
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+} 
+.about__button {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.about__button:focus {
+  text-decoration: none;
+}
+
+.about__button:hover {
+  text-decoration: none;
+}
+.about__button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.about__button:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .about__button {
+    padding: 12px 50px;
+  }
+}

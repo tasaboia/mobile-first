@@ -1,0 +1,31 @@
+.home {
+    display: inline-block;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.home__image {
+    width: 100%;
+}
+
+.home_text--area{
+    width: 25%;
+    max-height: 500;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.home__title{
+    font-size: 4rem;
+}
+
+.over-picture {
+    color: #fff;
+    position: absolute;
+    transform: translate(50%, -150%);
+}
+
