@@ -10,16 +10,21 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <nav class="nav">
+      <nav class="nav " >
         <ul class="nav__list">
           <li class="nav__item">
             <button class="nav__item menu"></button>
@@ -150,7 +155,7 @@
         </tr>
       </table>
 
-      <button class="about__button" role="button">
+      <button class="button" role="button">
         <a href="https://www.linkedin.com/in/tainasaboia/">LinkedIn</a>
       </button>
     </section>
@@ -205,9 +210,49 @@
           
         </ul>
       </div>
-      <h4 class="projects__descriptions">
+      <p class="projects__descriptions">
         uma pequena texot sobre todo o projeto e como foi interessante trabalhar com novos defasio
-      </h4>
+      </p>
+    </section>
+    <section id="contact" class="contact">
+      <h1>Vamos 
+        conversar</h1>
+      <h3>Entre em contato</h3>
+      <p>uma coisa leva a outra e ai eu to falando que se vcoe mandar mensage a gente pode se falar e tal</p>
+       <form class="form__container">
+        <input name="name" class="form__item" type="text" placeholder="Digite seu nome"/> 
+        <input name="email" class="form__item" type="email" placeholder="Digite seu e-mail"/>
+        <textarea name="mensage" class="form__item" type="texot" rows="4"></textarea>
+        <button title="Enviar" class="form__item button" role="button" type="submit"> Enviar</button>
+       </form>
     </section>
   </body>
+  <footer>
+    <div id="footer" class="footer">
+        <ul class="footer__list--container">
+            <li>
+              <a href="https://www.linkedin.com/in/tasaboia/" target="_blank" rel="noopener noreferrer">
+                <img class="footer__img" src="Imagens/icons/logo-linkedin.png" alt="linkedin"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/tasaboia" target="_blank" rel="noopener noreferrer">
+                <img class="footer__img" src="Imagens/icons/logo-github.png" alt="github"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/tasaboia/" target="_blank" rel="noopener noreferrer">
+                <img class="footer__img" src="Imagens/icons/logo-instagram.png" alt="instagram"/>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/tainasaboia" target="_blank" rel="noopener noreferrer">
+                <img class="footer__img" src="Imagens/icons/logo-twitter.png" alt="twitter"/>
+              </a>
+            </li>
+        </ul>
+
+        <p>Designed & Built by Tainá Saboia</p>
+    </div>
+</footer>
 </html>

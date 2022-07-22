@@ -1,6 +1,15 @@
 .nav {
+  overflow: hidden;
+  top: 0;
   width: 100%;
+  background-color: #fff;
   box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .nav__list{
   align-items: center;
